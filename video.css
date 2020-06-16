@@ -1,0 +1,65 @@
+#video {
+  position: fixed;
+  top: 50%;
+  left: 30%;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100vw;
+  height: 100vh;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+}
+
+
+.gradient {
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+  background-size: auto;
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+  color: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  object-fit: cover;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 480px) {
+    #video {
+    left: 50%;
+    top: 47%;
+  }
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (min-width: 481px) and (max-width: 768px) {
+  #video {
+    left: 60%;
+  }
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (min-width: 769px) and (max-width: 1024px) {
+  #video {
+    left: 50%;
+  }
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #video {
+    left: 50%;
+  }
+}
+
+
+@media (min-width: 1201px) and (max-width: 1366px) {
+
+
+}
+
+@media (min-width: 1367px) {
+
+}
