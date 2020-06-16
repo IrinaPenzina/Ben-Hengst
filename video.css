@@ -1,5 +1,5 @@
 #video {
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 30%;
   min-width: 100%;
@@ -9,24 +9,15 @@
   z-index: -100;
   transform: translate(-50%, -50%);
   object-fit: cover;
-  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
 }
 
 
 .gradient {
-  content: '';
-  height: 100%;
-  width: 100%;
+  position: relative;
   background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
   width: 100%;
   background-size: auto;
-  background-size: cover;
-  background-position: center;
-  z-index: 2;
-  color: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  object-fit: cover;
 }
 
 /*Extra small devices (portrait phones, less than 576px)*/
@@ -64,6 +55,10 @@
 
 }
 
-@media (min-width: 1367px) {
+@media (min-width: 1367px) and (max-width: 1899px) {
+
+}
+
+@media (max-width: 1900px) {
 
 }
