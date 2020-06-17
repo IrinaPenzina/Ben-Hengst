@@ -60,5 +60,8 @@
 }
 
 @media (min-width: 1900px) {
-
+ #video {
+  top: 26%;
+  left: 8%;
+ }
 }
