@@ -9,10 +9,6 @@ h4 p ul li span {
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2) ;
 }
 
-p {
-  font-size: ;
-}
-
 .title-link {
   text-decoration: none;
   color: white;
@@ -25,7 +21,6 @@ p {
              0px 8px 13px rgba(0,0,0,0.1),
              0px 18px 23px rgba(0,0,0,0.1);
 }
-
 
 header {
   color: #261011;
@@ -188,7 +183,7 @@ body {
 .timeline .swiper-slide::after {
   content: "";
   position: absolute;
-  z-index: 1;
+  z-index: 100;
   right: -115%;
   bottom: -10%;
   width: 100%;
@@ -197,6 +192,8 @@ body {
   box-shadow: -230px 0 150px 60vw rgba(0, 0, 0, 0.7);
   border-radius: 100%;
 }
+
+
 .timeline .swiper-slide-content {
   position: absolute;
   text-align: center;
@@ -207,8 +204,10 @@ body {
   -webkit-transform: translate(50%, 0);
           transform: translate(50%, 0);
   font-size: 12px;
-  z-index: 2;
+  z-index: 300;
 }
+
+
 .timeline .swiper-slide .timeline-year {
   display: block;
   font-style: italic;
@@ -221,6 +220,9 @@ body {
   opacity: 0;
   -webkit-transition: .2s ease .4s;
   transition: .2s ease .4s;
+   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
 }
 .timeline .swiper-slide .timeline-title {
   font-weight: 800;
@@ -231,6 +233,7 @@ body {
           transform: translate3d(20px, 0, 0);
   -webkit-transition: .2s ease .5s;
   transition: .2s ease .5s;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2) !important;
 }
 .timeline .swiper-slide .timeline-text {
   line-height: 1.5;
@@ -246,6 +249,9 @@ body {
           transform: translate3d(0, 0, 0);
   -webkit-transition: .4s ease 1.6s;
   transition: .4s ease 1.6s;
+   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
 }
 .timeline .swiper-slide-active .timeline-title {
   opacity: 1;
@@ -253,6 +259,7 @@ body {
           transform: translate3d(0, 0, 0);
   -webkit-transition: .4s ease 1.7s;
   transition: .4s ease 1.7s;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2) !important;
 }
 .timeline .swiper-slide-active .timeline-text {
   opacity: 1;
@@ -362,6 +369,9 @@ body {
   .timeline .swiper-slide .timeline-year {
     margin-bottom: 0;
     font-size: 32px;
+     text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
   }
   .timeline .swiper-slide .timeline-title {
     font-size: 46px;

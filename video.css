@@ -1,25 +1,26 @@
 #video {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 30%;
   min-width: 100%;
   min-height: 100%;
   width: 100vw;
   height: 100vh;
-  z-index: -100;
+  z-index: -100 !important;
   transform: translate(-50%, -50%);
   object-fit: cover;
 }
 
-
-.gradient {
-  position: relative;
-  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+.gradient::after  {
+  content: "";
+  right: -115%;
+  bottom: -10%;
   width: 100%;
-  background-size: auto;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: -230px 0 150px 60vw rgba(0, 0, 0, 0.7);
+  border-radius: 100%;
 }
-
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (min-width: 320px) and (max-width: 480px) {
     #video {
@@ -45,7 +46,7 @@
 /*Large devices (desktops, less than 1200px)*/
 @media (min-width: 1025px) and (max-width: 1200px) {
   #video {
-    left: 49%;
+    left: 46%;
   }
 }
 
@@ -60,8 +61,8 @@
 }
 
 @media (min-width: 1900px) {
- #video {
-  top: 53%;
-  left: 8%;
- }
+  #video {
+    top: 53%;
+    left: 8%;
+  }
 }
