@@ -183,7 +183,7 @@ body {
 .timeline .swiper-slide::after {
   content: "";
   position: absolute;
-  z-index: 100;
+  z-index: 200;
   right: -115%;
   bottom: -10%;
   width: 100%;
@@ -204,9 +204,12 @@ body {
   -webkit-transform: translate(50%, 0);
           transform: translate(50%, 0);
   font-size: 12px;
-  z-index: 300;
+ /* z-index: 300;*/
 }
 
+.timeline .swiper-slide-content {
+  z-index: 300 !important;
+}
 
 .timeline .swiper-slide .timeline-year {
   display: block;

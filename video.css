@@ -6,13 +6,26 @@
   min-height: 100%;
   width: 100vw;
   height: 100vh;
-  z-index: -100 !important;
+  z-index: -100;
   transform: translate(-50%, -50%);
   object-fit: cover;
 }
 
-.gradient::after  {
+.timeline .swiper-slide .gradient {
+  position: relative;
+  color: #fff;
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+}
+
+.timeline .swiper-slide .gradient ::after  {
   content: "";
+  position: absolute;
+  z-index: 400;
   right: -115%;
   bottom: -10%;
   width: 100%;
@@ -21,6 +34,7 @@
   box-shadow: -230px 0 150px 60vw rgba(0, 0, 0, 0.7);
   border-radius: 100%;
 }
+
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (min-width: 320px) and (max-width: 480px) {
     #video {
