@@ -5,7 +5,7 @@
   min-width: 100%;
   min-height: 100%;
   width: 100vw;
-  height: 100vh;
+  height: 100vw;
   z-index: -100;
   transform: translate(-50%, -50%);
   object-fit: cover;
@@ -46,7 +46,8 @@
 /*Small devices (landscape phones, less than 768px)*/
 @media (min-width: 481px) and (max-width: 768px) {
   #video {
-    left: 60%;
+    left: 50%;
+    top: 33%;
   }
 }
 
@@ -77,6 +78,13 @@
 @media (min-width: 1900px) {
   #video {
     top: 53%;
-    left: 8%;
+    left: 10%;
+  }
+}
+
+@media (max-width: 2560px) {
+  #video {
+    top: 53%;
+    left: -25%;
   }
 }

@@ -352,7 +352,7 @@ body {
   -webkit-transform: translateX(3px);
           transform: translateX(3px);
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .timeline .swiper-slide::after {
     right: -30%;
     bottom: -8%;
@@ -430,6 +430,9 @@ body {
   #name {
     color: white;
     text-shadow: none;
+  }
+  ul {
+    right: 0%;
   }
 }
 
