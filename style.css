@@ -163,6 +163,13 @@ body {
   box-shadow: 0 5px 25px 5px rgba(0, 0, 0, 0.2);
 }
 
+.timeline-text {
+  font-family: 'M PLUS 1p', sans-serif;
+  font-family: 'Mulish', sans-serif;
+  font-size: 12px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
 .timeline-text a {
   color: white;
   text-decoration: underline;
@@ -389,8 +396,8 @@ body {
              0px 18px 23px rgba(0,0,0,0.1);
   }
   .timeline .swiper-slide .timeline-title {
-    font-size: 46px;
-    margin: 0;
+    font-size: 30px;
+    margin: 10px;
   }
   .timeline .swiper-pagination {
     display: -webkit-box;
