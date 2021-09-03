@@ -92,21 +92,24 @@ span {
 footer {
   /*color: #261011;*/
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 40px;
-  background-color: white;
   /*position: fixed;*/
   bottom: 0;
   width: 100%;
   box-shadow: 0 0 8px rgba(0,0,0,0.2);
-  height: 70px;
+  height: 120px;
   background-color: #261011;
 }
 
 
+
 .footertext{
 	color: white;
-	font-size: 14px;
 	text-align: right;
 	margin-right: 5%;
-	padding-top: 11px;
+	padding-top: 15px;
+}
+
+
+.footerphone {
+	color: white;
 }
