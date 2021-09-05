@@ -91,6 +91,18 @@ span {
 }
 
 
+.endwords {
+	margin-left: 30%;
+}
+
+.contactmelink {
+	color: #261011;;
+}
+
+.contactmelink:hover {
+	color: #261011;;
+}
+
 footer {
   /*color: #261011;*/
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
