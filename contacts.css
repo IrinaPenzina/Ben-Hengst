@@ -1,0 +1,62 @@
+
+
+img.backgroundpic {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.backgroundpic {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+.middlebox {
+  margin-top: 14%;
+  margin-left: 18%;
+  position: absolute;
+  width: 30%;
+  height: 45%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+
+.contacttext {
+  font-family: 'Didact Gothic', sans-serif;
+  position: relative;
+  margin-top: 19%;
+  margin-left: 20%;
+  color: white;
+  text-align: left;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.bigtext {
+  margin-bottom: 20px; 
+  font-size: 38px;
+}
+
+.contacts {
+  font-size: 20px;
+}
+
+.footerphone {
+  color: white;
+}
+
+.footerphone:hover {
+  color: white;
+}
+

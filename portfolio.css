@@ -1,4 +1,4 @@
-.box {
+.container-fluid {
 	padding: 100px 50px 50px 50px;
 }
 
@@ -31,6 +31,8 @@
 }
 
 .description {
+	font-family: 'Didact Gothic', sans-serif;
+  	font-size: 17px;
 	text-align: justify;
 	color: #3E2C41;
 }
@@ -92,12 +94,12 @@ span {
 footer {
   /*color: #261011;*/
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  /*position: fixed;*/
   bottom: 0;
   width: 100%;
   box-shadow: 0 0 8px rgba(0,0,0,0.2);
   height: 120px;
   background-color: #261011;
+  padding: 0px 50px;
 }
 
 
@@ -105,7 +107,7 @@ footer {
 .footertext{
 	color: white;
 	text-align: right;
-	margin-right: 5%;
+	right: 5%;
 	padding-top: 15px;
 }
 
@@ -113,3 +115,10 @@ footer {
 .footerphone {
 	color: white;
 }
+
+.footerphone:hover {
+  color: white;
+}
+
+
+
