@@ -22,12 +22,14 @@ img.backgroundpic {
   }
 }
 
+
 .middlebox {
-  margin-top: 14%;
-  margin-left: 18%;
-  position: absolute;
-  width: 30%;
-  height: 45%;
+  top: 25%;
+  left: 18%;
+  position: relative;
+  text-align: center;
+  width: 343px;
+  height: 217px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 20px;
 }
@@ -35,16 +37,17 @@ img.backgroundpic {
 
 .contacttext {
   font-family: 'Didact Gothic', sans-serif;
-  position: relative;
-  margin-top: 19%;
-  margin-left: 20%;
+  position: absolute;
+  top: 15%;
+  left: 15%;
   color: white;
   text-align: left;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 }
 
+
 .bigtext {
-  margin-bottom: 20px; 
+  bottom: 20px; 
   font-size: 38px;
 }
 
@@ -63,40 +66,9 @@ img.backgroundpic {
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
-/*// Small devices (landscape phones, less than 768px)*/
-@media only screen and (max-width: 767.98px) {
-  .middlebox{
-    margin-top: 52%;
-    height: 40%;
-    width: 81%;
-    margin-left: 10%;
-  }
-  .contacttext {
-    margin-left: 10%;
-  }
-}
 
-/*// Medium devices (tablets, less than 992px)*/
-@media only screen and (max-width: 991.98px) { 
-  .middlebox{
-    margin-top: 52%;
-    height: 40%;
-    width: 81%;
-    margin-left: 10%;
-  }
-  .contacttext {
-    
-  }
-}
+*/
+@media screen and (max-width: 1024px) {
+  
 
-/*// Large devices (desktops, less than 1200px)*/
-@media only screen and (max-width: 1199.98px) { 
-    .middlebox{
-      margin-top: 24%;
-      height: 27%;
-      width: 42%;
-  }
-  .contacttext {
-    margin-left: 10%;
-  }
- }
+}
