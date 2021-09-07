@@ -92,7 +92,7 @@ span {
 
 
 .endwords {
-	margin-left: 30%;
+	text-align: center;
 }
 
 .contactmelink {
@@ -135,12 +135,43 @@ footer {
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
+/* // Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+	iframe {
+		width: 320px;
+		height: 215px;
+	}
+	.videocard{
+		flex-direction: column;
+	}
+	.videotext {
+		height: 100%;
+		width: 320px;
+		font-size: 10px;
+		margin-top: 20px;
+	}
+}
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+	iframe {
+		width: 320px;
+		height: 215px;
+	}
+/*	.videocard{
+		flex-direction: column;
+	}*/
+	.videotext {
+		height: 100%;
+		width: 320px;
+		font-size: 10px;
+		margin-top: 20px;
+	}
+
+}
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { ... }
 
