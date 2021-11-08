@@ -23,10 +23,10 @@
 
 
 .btn {
+  font-family: 'Amatic SC';
   letter-spacing: 0.1em;
   cursor: pointer;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 30px !important;
   line-height: 45px;
   max-width: 160px;
   position: relative;
